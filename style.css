@@ -1,0 +1,61 @@
+
+        .navbar-brand>img{
+            width: 80px;
+        }
+        .navbar-nav{
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+        
+        .nav-link-active:hover{
+            color:rgb(164, 27, 27) !important;
+        }
+        .nav-link-active{
+            color:#e71096;
+            padding:10px;
+        }
+       
+        #carousel-indicators{
+            box-shadow: 0 1rem 1rem rgba(222, 13, 13, 0.1);
+        }
+        footer{
+            background-color: rgb(158, 93, 28);
+        }
+        footer img{width: 100px;}
+           
+    footer ul{
+        display: flex;
+        flex-direction: row;
+        /* 依序右到左排列 */
+        /* margin-left:-5px; */
+        justify-content: space-around;
+    }
+    /* pace-between 將空白空間分配在東西之間 */
+    /* space-around 將空白空間分配在東西兩側 */
+    /* space-evenly 將空白剩下的空間均勻分配 */
+    footer ul li{ 
+        list-style-type:none;/* 消除圓點 */
+        /* display: flex;
+        flex-direction: row;
+        margin:0 auto;
+        justify-content: space-evenly; */
+
+        
+            } 
+        /* text-decoration:none; 消除底線 */
+      
+        /* .p{
+            text-align: center;
+        } */
+        body{
+            background-color: rgb(170, 111, 66);
+        }
+        /* .container{
+            display: flex;
+            flex-wrap: wrap ;
+            flex-direction: row;
+        } */
+       
+     
+        
+
